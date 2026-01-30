@@ -1,0 +1,32 @@
+$bg-dark: #1a1c23;
+$card-bg: #24262d;
+$text-light: #edeff2;
+
+.dashboard-container {
+  background-color: $bg-dark;
+  color: $text-light;
+  min-height: 100vh;
+  padding: 2rem;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  .chart-section {
+    background: $card-bg;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+
+  .card {
+    border-left: 5px solid #e74c3c;
+    background: $card-bg;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}

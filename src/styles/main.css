@@ -1,0 +1,27 @@
+.dashboard-container {
+  background-color: #1a1c23;
+  color: #edeff2;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.dashboard-container header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.dashboard-container .chart-section {
+  background: #24262d;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.dashboard-container .card {
+  border-left: 5px solid #e74c3c;
+  background: #24262d;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */
