@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/analisa-observacao/', // Verifique se as barras e o nome estão corretos
+  base: './', // Isso força o uso de caminhos relativos, ideal para GitHub Pages
 })
