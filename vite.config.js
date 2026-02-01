@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Isso força o uso de caminhos relativos, ideal para GitHub Pages
+  base: '', // Deixar vazio ou usar './' força o Vite a usar caminhos relativos
 })
